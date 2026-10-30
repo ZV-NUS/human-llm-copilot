@@ -1,0 +1,122 @@
+{
+  "assets": [
+    {
+      "file": "media/asphalt_02_diff.jpg",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/asphalt_02/asphalt_02_diff_1k.jpg",
+      "license": "CC0",
+      "author": "Rob Tuytel",
+      "sha256": "1aa5ce99f58a625c71d48cfc3e68b65ca85ccb00f39e045c0a928608a0ea25ed",
+      "bytes": 731707
+    },
+    {
+      "file": "media/asphalt_02_nor_gl.jpg",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/asphalt_02/asphalt_02_nor_gl_1k.jpg",
+      "license": "CC0",
+      "author": "Rob Tuytel",
+      "sha256": "42a1c381b53204e83a982db2864479a30bc127bbdeebb1006f8ee51bff099df3",
+      "bytes": 1240122
+    },
+    {
+      "file": "media/asphalt_02_rough.jpg",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/asphalt_02/asphalt_02_rough_1k.jpg",
+      "license": "CC0",
+      "author": "Rob Tuytel",
+      "sha256": "70ba3edc65525eb4dc366cf010ca7ae0bd34e0251ff0225c2dad627a873d0712",
+      "bytes": 544032
+    },
+    {
+      "file": "media/grass_path_2_diff.jpg",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/grass_path_2/grass_path_2_diff_1k.jpg",
+      "license": "CC0",
+      "author": "Rob Tuytel",
+      "sha256": "7f30b163739435c11f500f3818c7bb4922bab5f2734cc9ba6dd36817f0c9a8ab",
+      "bytes": 716010
+    },
+    {
+      "file": "media/grass_path_2_nor_gl.jpg",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/grass_path_2/grass_path_2_nor_gl_1k.jpg",
+      "license": "CC0",
+      "author": "Rob Tuytel",
+      "sha256": "4f6e911619d4c79a6bc340a64eac1e5fcbae8e54ea2674ed1892f6a9a1dfb5fa",
+      "bytes": 831959
+    },
+    {
+      "file": "media/grass_path_2_rough.jpg",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/grass_path_2/grass_path_2_rough_1k.jpg",
+      "license": "CC0",
+      "author": "Rob Tuytel",
+      "sha256": "2aaf4400e7892d643a4f64d7347f2a0ca65051b5cb0c1b5d0ef383a65a5fa172",
+      "bytes": 335245
+    },
+    {
+      "file": "media/sedan_vehicle.gltf",
+      "source": "https://sketchfab.com/3d-models/130-d9485f5360224e9dbaafd24b2eec0f1a",
+      "original_url": "https://sketchfab.com/3d-models/130-d9485f5360224e9dbaafd24b2eec0f1a",
+      "author": "ｍononofu",
+      "license": "CC-BY-4.0",
+      "sha256": "69565aab30694b2db92ebb6a666dc4b8671d540b3359506514d72ad9a4928a9a",
+      "bytes": 1254666
+    },
+    {
+      "file": "media/sedan_right_tire_front.gltf",
+      "source": "https://sketchfab.com/3d-models/130-d9485f5360224e9dbaafd24b2eec0f1a",
+      "original_url": "https://sketchfab.com/3d-models/130-d9485f5360224e9dbaafd24b2eec0f1a",
+      "author": "ｍononofu",
+      "license": "CC-BY-4.0",
+      "sha256": "6c6dca72a8d7b75a27db0d92e8d20b5701533cfd906805f028645a20735221fb",
+      "bytes": 629119
+    },
+    {
+      "file": "media/sedan_license.txt",
+      "source": "https://sketchfab.com/3d-models/130-d9485f5360224e9dbaafd24b2eec0f1a",
+      "original_url": "https://sketchfab.com/3d-models/130-d9485f5360224e9dbaafd24b2eec0f1a",
+      "author": "ｍononofu",
+      "license": "CC-BY-4.0",
+      "sha256": "21687cc48a0d61c98cada0aa0d6431100d04058e646c9dd2b200ae357af2b41a",
+      "bytes": 646
+    },
+    {
+      "file": "media/daylight.hdr",
+      "source": "https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/1k/kloofendal_48d_partly_cloudy_puresky_1k.hdr",
+      "author": "Greg Zaal; sky edits by Jarod Guest",
+      "license": "CC0",
+      "bytes": 1435119,
+      "sha256": "fd94c84997b8a3c353b62c2125a9b44e19509956986a126e472684432a02d798"
+    },
+    {
+      "file": "vendor/GLTFLoader.js",
+      "source": "https://raw.githubusercontent.com/mrdoob/three.js/r186/examples/jsm/loaders/GLTFLoader.js",
+      "license": "MIT",
+      "author": "Three.js contributors",
+      "upstream_sha256": "131c0f78c01d19368ae495caa65b3adaa10487810a36a05bb5901b769a35ac16",
+      "sha256": "200cb5621236d83d241662078878de25800b152d091ac63678d74179abb0df6b",
+      "modification": "two local utility import paths only"
+    },
+    {
+      "file": "vendor/HDRLoader.js",
+      "source": "https://raw.githubusercontent.com/mrdoob/three.js/r186/examples/jsm/loaders/HDRLoader.js",
+      "license": "MIT",
+      "author": "Three.js contributors",
+      "upstream_sha256": "0986b578f9acd14cec74e5ee85e07f45e681b40bcd229a601a0391201f9b5ff1",
+      "sha256": "0986b578f9acd14cec74e5ee85e07f45e681b40bcd229a601a0391201f9b5ff1",
+      "modification": null
+    },
+    {
+      "file": "vendor/BufferGeometryUtils.js",
+      "source": "https://raw.githubusercontent.com/mrdoob/three.js/r186/examples/jsm/utils/BufferGeometryUtils.js",
+      "license": "MIT",
+      "author": "Three.js contributors",
+      "upstream_sha256": "9fb63427ce6641fa14fd0baff9cc4d1b5f9c3d85fd084bf2e90e803c44ec1797",
+      "sha256": "9fb63427ce6641fa14fd0baff9cc4d1b5f9c3d85fd084bf2e90e803c44ec1797",
+      "modification": null
+    },
+    {
+      "file": "vendor/SkeletonUtils.js",
+      "source": "https://raw.githubusercontent.com/mrdoob/three.js/r186/examples/jsm/utils/SkeletonUtils.js",
+      "license": "MIT",
+      "sha256": "b1632a703206c3d830de9fcbe515696770d04b71a15ee6b50afa6d2c3298c86f",
+      "author": "Three.js contributors"
+    }
+  ],
+  "project_local_read_only_copies": true
+}
