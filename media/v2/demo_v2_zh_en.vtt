@@ -1,0 +1,56 @@
+WEBVTT
+
+1
+00:00:00.120 --> 00:00:06.880
+How can we overtake smoothly and save
+energy? A car is passing in the right-hand
+lane.
+
+2
+00:00:07.120 --> 00:00:13.880
+A button sets the overtaking goal. The
+instruction expresses smoothness and energy
+preferences for local-model interpretation.
+
+3
+00:00:14.120 --> 00:00:23.880
+Both candidates overtake. A predicts a
+26-second finish with higher energy; B
+predicts a 29-second finish, allowing more
+time.
+
+4
+00:00:27.120 --> 00:00:29.880
+After comparison, B better matches the
+preferences.
+
+5
+00:00:30.120 --> 00:00:34.880
+A different offer is accepted: a 26-second
+finish and a 4.5-second lane transition.
+
+6
+00:00:35.120 --> 00:00:40.880
+Both evaluations inform a new plan: a
+29-second finish and 4.5-second
+transitions.
+
+7
+00:00:41.120 --> 00:00:44.880
+The goal is retained. Ego enters the
+right-hand lane.
+
+8
+00:00:45.120 --> 00:00:49.880
+Ego moves forward and gradually passes the
+slow lead car.
+
+9
+00:00:50.120 --> 00:00:54.880
+Ego returns to the original lane. The solid
+line shows recorded execution.
+
+10
+00:00:55.120 --> 00:00:59.880
+Simulation complete. Recorded complete-task
+model energy is about 57 watt-hours.

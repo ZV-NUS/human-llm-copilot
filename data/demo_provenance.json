@@ -21,5 +21,25 @@
   "demo_data_sha256": "2fd2bfd91ab2ffd0c19d1d7a898e09840e585b650af865cb6eb0a560f56cc355",
   "v1_archive_commit": "b3a0b01978f171adc07f1ee0489179382da528b7",
   "v1_video": "../media/human_llm_copilot_demo.mp4",
-  "v1_brief": "../media/project_brief.pdf"
+  "v1_brief": "../media/project_brief.pdf",
+  "v2_media": {
+    "English_video": "../media/v2/human_llm_copilot_demo_v2_en.mp4",
+    "Chinese_video": "../media/v2/human_llm_copilot_demo_v2_zh.mp4",
+    "video_duration_s": 60,
+    "video_size_px": [
+      1080,
+      1440
+    ],
+    "audio_languages": [
+      "English (RyanNeural)",
+      "Chinese (YunxiNeural)"
+    ],
+    "English_brief": "../media/v2/project_brief_v2_en.pdf",
+    "Chinese_brief": "../media/v2/project_brief_v2_zh.pdf",
+    "optional_subtitle_languages": [
+      "English",
+      "Chinese"
+    ],
+    "webpage_language_independent_of_media_edition": true
+  }
 }

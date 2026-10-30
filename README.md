@@ -2,7 +2,7 @@
 
 Language-guided shared decision-making for intelligent vehicles.
 
-**[Interactive project page](https://zv-nus.github.io/human-llm-copilot/)** · [中文](https://zv-nus.github.io/human-llm-copilot/?lang=zh) · [English](https://zv-nus.github.io/human-llm-copilot/?lang=en)
+**[Interactive project page](https://zv-nus.github.io/human-llm-copilot/)** · [V2 video: English](media/v2/human_llm_copilot_demo_v2_en.mp4) / [中文](media/v2/human_llm_copilot_demo_v2_zh.mp4) · [One-page brief: English](media/v2/project_brief_v2_en.pdf) / [中文](media/v2/project_brief_v2_zh.pdf) · [中文](https://zv-nus.github.io/human-llm-copilot/?lang=zh) · [English](https://zv-nus.github.io/human-llm-copilot/?lang=en)
 
 An overtaking goal leaves choices about timing, smoothness and energy. V2 follows one complete case through moving traffic, a driver instruction, candidate evaluation, feedback, replanning and execution.
 
@@ -19,7 +19,17 @@ The episode uses scripted software feedback and one recorded local Qwen 9B call.
 
 ## Version and media
 
-The current webpage is **V2**. The original [75-second video](media/human_llm_copilot_demo.mp4) and [one-page brief](media/project_brief.pdf) describe **V1** and remain archived. V1 webpage source is preserved at commit `b3a0b01978f171adc07f1ee0489179382da528b7`. V2 video and brief will be updated separately.
+The current webpage, **two 60-second portrait videos** and **two one-page briefs** use the same **V2 five-vehicle episode**.
+
+- Webpage language: Chinese / English.
+- English video: English visuals and Ryan English narration.
+- Chinese video: Chinese narration by Yunxi, with Chinese/English visual explanations.
+- Both videos offer optional Chinese and English captions; English is the default video edition.
+- Briefs: one page each, in English and Chinese.
+
+Video edition and caption language can be selected separately from the webpage language.
+
+The original [75-second V1 video](media/human_llm_copilot_demo.mp4) and [V1 brief](media/project_brief.pdf) remain unchanged. V1 webpage source is preserved at commit `b3a0b01978f171adc07f1ee0489179382da528b7`.
 
 ## Scope and provenance
 
