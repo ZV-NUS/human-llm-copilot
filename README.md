@@ -1,50 +1,40 @@
 # Human–LLM Co-Pilot
 
-### Language-Guided Shared Decision-Making for Intelligent Vehicles
+Language-guided shared decision-making for intelligent vehicles.
 
-**[Project page](https://zv-nus.github.io/human-llm-copilot/)** · **[75-second overview](media/human_llm_copilot_demo.mp4)** · **[One-page project brief](media/project_brief.pdf)**
+**[Interactive project page](https://zv-nus.github.io/human-llm-copilot/)** · [中文](https://zv-nus.github.io/human-llm-copilot/?lang=zh) · [English](https://zv-nus.github.io/human-llm-copilot/?lang=en)
 
-An overtaking request leaves choices about timing, smoothness and energy. This project connects language interpretation, driver feedback, preference updates and automated vehicle execution in a traceable loop.
+An overtaking goal leaves choices about timing, smoothness and energy. V2 follows one complete case through moving traffic, a driver instruction, candidate evaluation, feedback, replanning and execution.
 
-![Recorded simulation overview](media/poster.jpg)
+## Follow the case
 
-## Explore the demonstration
+1. A slower lead vehicle and a passing target-lane vehicle constrain the overtaking opportunity. All five surrounding vehicles participate in native planning and simulation.
+2. A goal button specifies overtaking. Local Qwen 9B interprets the current-task smoothness and energy preferences; the existing binding program structures those attributes.
+3. The scripted driver evaluates two candidates predicted at the same time: A finishes at 26 s with a 3.5 s lane transition; B finishes at 29 s with a 3.5 s transition.
+4. A comparison favors B, followed by an acceptability response concerning a separate 26 s / 4.5 s candidate. Both are button feedback events.
+5. Combining both evaluations and the current vehicle state, the system replans a 29 s / 4.5 s execution. The overtake goal is retained.
+6. Recorded execution is shown alongside candidate forecasts and complete-task model energy. A synchronized first-person view is available as a secondary view.
 
-The [project page](https://zv-nus.github.io/human-llm-copilot/) works in a browser without model installation. It includes two synchronized first-person/trajectory replays and the associated recorded language and decision events.
+The episode uses scripted software feedback and one recorded local Qwen 9B call. It is an isolated simulation demonstration, not an independent paper validation or a human-study result. The browser replays saved records without a live model or vehicle connection.
 
-1. **Time-aware negotiation:** a 30-second completion requirement is grounded and confirmed. Plan-bound acceptance/reason feedback updates evaluation, followed by a 26-second selected maneuver.
-2. **Preference-aware negotiation:** an initial smoothness/energy instruction is followed by acceptance and comparison feedback. The recorded branch selects a 29-second alternative.
+## Version and media
 
-The examples replay saved simulation episodes with scripted scenario feedback and logged local Qwen 9B outputs. English captions translate the original Chinese instructions. They illustrate functionality rather than aggregate algorithmic or human-study results. The browser makes no live model calls and does not control a vehicle.
+The current webpage is **V2**. The original [75-second video](media/human_llm_copilot_demo.mp4) and [one-page brief](media/project_brief.pdf) describe **V1** and remain archived. V1 webpage source is preserved at commit `b3a0b01978f171adc07f1ee0489179382da528b7`. V2 video and brief will be updated separately.
 
-## Interaction loop
+## Scope and provenance
 
-![System flow](media/architecture.svg)
+This public repository contains the presentation page, selected derived replay records and rendering assets. Research implementation is maintained separately in a private repository.
 
-**Driver goal/feedback → language grounding → preference and acceptability update → candidate-plan evaluation → automated vehicle execution.**
+- [V2 replay provenance](data/demo_provenance.json)
+- [V1 replay provenance](data/provenance.json)
+- [Rendering credits](credits.html): vehicle model byｍononofu (CC BY 4.0), Poly Haven surfaces/sky (CC0), and Three.js (MIT).
 
-Goal buttons and plan identities bind language to the current task. Additional feedback takes time while the vehicle continues to move. The recorded implementation evaluates time, smoothness and complete-task energy under its original constraints and request budget.
-
-## Repository scope
-
-This public repository contains the project description, selected derived replay records, presentation renderer and demonstration media. The research implementation is maintained in a separate **private repository**. Raw studies, participant data, private documents, authentication material, model weights and journal PDFs are not part of the public showcase.
-
-For research implementation access, contact [Zhenwu Fang](https://github.com/ZV-NUS).
+Original research gates, error bands, four-request budget and continuous 33 s task clock are retained. Presentation playback speed does not alter the recorded native task time.
 
 ## View locally
 
-```sh
-python3 -m http.server 8080
-```
-
-Open `http://127.0.0.1:8080`. The site is static and GitHub Pages compatible.
-
-## Provenance and assets
-
-- [Replay provenance](data/provenance.json): selected episode IDs and presentation-data checksum.
-- [Rendering credits](credits.html): vehicle model byｍononofu (CC BY 4.0), Poly Haven surfaces/sky (CC0), and Three.js (MIT).
-- Original vehicle states, feedback and logged model outputs are retained in the research archive. Presentation retiming does not alter the native task clock shown in the viewer.
+Run `python3 -m http.server 8080`, then open `http://127.0.0.1:8080`. The site is static and GitHub Pages compatible.
 
 ## License
 
-The authored showcase page and presentation code use the MIT license. Third-party models, textures and libraries retain their separate terms. Derived replay data are provided for this recorded demonstration; see provenance for their role.
+Authored presentation code uses the MIT license. Third-party assets retain their separate terms. Derived replay data are provided for this recorded demonstration.
