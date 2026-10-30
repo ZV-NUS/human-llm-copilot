@@ -40,6 +40,20 @@
       "English",
       "Chinese"
     ],
-    "webpage_language_independent_of_media_edition": true
+    "webpage_language_independent_of_media_edition": true,
+    "status": "archived narrated edition"
+  },
+  "active_media_edition": "v2-visual",
+  "v2_visual_media": {
+    "English_video": "../media/v2-visual/human_llm_copilot_visual_v2_en.mp4",
+    "Chinese_video": "../media/v2-visual/human_llm_copilot_visual_v2_zh.mp4",
+    "video_duration_s": 48,
+    "video_size_px": [
+      1080,
+      1440
+    ],
+    "audio_tracks": 0,
+    "display": "problem statement, keywords, recorded candidate values, feedback highlights and native execution",
+    "same_native_episode": true
   }
 }

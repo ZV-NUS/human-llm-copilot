@@ -2,7 +2,7 @@
 
 Language-guided shared decision-making for intelligent vehicles.
 
-**[Interactive project page](https://zv-nus.github.io/human-llm-copilot/)** · [V2 video: English](media/v2/human_llm_copilot_demo_v2_en.mp4) / [中文](media/v2/human_llm_copilot_demo_v2_zh.mp4) · [One-page brief: English](media/v2/project_brief_v2_en.pdf) / [中文](media/v2/project_brief_v2_zh.pdf) · [中文](https://zv-nus.github.io/human-llm-copilot/?lang=zh) · [English](https://zv-nus.github.io/human-llm-copilot/?lang=en)
+**[Interactive project page](https://zv-nus.github.io/human-llm-copilot/)** · [Visual replay: English](media/v2-visual/human_llm_copilot_visual_v2_en.mp4) / [中文](media/v2-visual/human_llm_copilot_visual_v2_zh.mp4) · [One-page brief: English](media/v2/project_brief_v2_en.pdf) / [中文](media/v2/project_brief_v2_zh.pdf) · [中文](https://zv-nus.github.io/human-llm-copilot/?lang=zh) · [English](https://zv-nus.github.io/human-llm-copilot/?lang=en)
 
 An overtaking goal leaves choices about timing, smoothness and energy. V2 follows one complete case through moving traffic, a driver instruction, candidate evaluation, feedback, replanning and execution.
 
@@ -19,17 +19,14 @@ The episode uses scripted software feedback and one recorded local Qwen 9B call.
 
 ## Version and media
 
-The current webpage, **two 60-second portrait videos** and **two one-page briefs** use the same **V2 five-vehicle episode**.
+The primary videos are **48-second silent visual replays**, available with English or Chinese on-screen keywords. The five-vehicle situation, A/B forecasts, two feedback events, replanning and recorded execution are shown through short labels, selections and highlights. There is no narration or audio track.
 
-- Webpage language: Chinese / English.
-- English video: English visuals and Ryan English narration.
-- Chinese video: Chinese narration by Yunxi, with Chinese/English visual explanations.
-- Both videos offer optional Chinese and English captions; English is the default video edition.
-- Briefs: one page each, in English and Chinese.
+Webpage language and video display language can be selected independently. The one-page English and Chinese briefs remain available. All versions use the same V2 native episode.
 
-Video edition and caption language can be selected separately from the webpage language.
+Archived material is retained unchanged:
 
-The original [75-second V1 video](media/human_llm_copilot_demo.mp4) and [V1 brief](media/project_brief.pdf) remain unchanged. V1 webpage source is preserved at commit `b3a0b01978f171adc07f1ee0489179382da528b7`.
+- [V2 narrated English video](media/v2/human_llm_copilot_demo_v2_en.mp4) and [V2 narrated Chinese video](media/v2/human_llm_copilot_demo_v2_zh.mp4), 60 seconds each.
+- [V1 video](media/human_llm_copilot_demo.mp4), 75 seconds, and [V1 brief](media/project_brief.pdf). V1 webpage source is preserved at commit `b3a0b01978f171adc07f1ee0489179382da528b7`.
 
 ## Scope and provenance
 
